@@ -1,0 +1,85 @@
+Dưới đây là Guidelines Dịch Thuật Bối Cảnh Phương Tây cập nhật:
+
+================================================================================
+HƯỚNG DẪN DỊCH THUẬT NÂNG CAO - MAP PHƯƠNG TÂY
+(Loại bỏ văn phong Tiên Hiệp - Áp dụng văn phong Sử Thi/Tôn Giáo)
+================================================================================
+
+### 1. QUY TẮC CHUYỂN ĐỔI XƯNG HÔ (PRONOUNS)
+
+Tuyệt đối KHÔNG DÙNG: *Vãn bối, tiền bối, tại hạ, lão phu, tiểu tử, huynh đệ, tỷ muội.*
+
+Thay thế bằng hệ thống xưng hô mang màu sắc Quý tộc / Tôn giáo / Quân đội phương Tây:
+
+| Tình huống | Tiên Hiệp (Cũ - Cần bỏ) | Phương Tây (Mới - Nên dùng) | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| Giáo hoàng/Thánh tử nói với Thần (Lý Dã/Zeus) | Vãn bối / Tiểu nhân | Con / Kẻ tôi tớ hèn mọn / Kẻ bề tôi | Thể hiện sự sùng bái tôn giáo |
+| Thần nói với Tín đồ/Giáo hoàng | Bản toạ / Lão phu / Ta | Ta (Chúa/Thần) | Uy quyền, bề trên |
+| Giữa các Giám mục/Thánh tử với nhau | Đạo hữu / Huynh đệ | Ngài / Ông / Tên kia | Xã giao kiểu phương Tây |
+| Lý Dã nói với đối thủ (Thánh tử, Rồng) | Tiểu tử / Nghiệt súc | Kẻ sa ngã / Ngươi / Tên kia / Hỡi kẻ... | Giọng điệu phán xét |
+| Dân chúng gọi Lý Dã | Thượng tiên / Tiền bối | Thần / Đức Ngài / Đấng Cứu Thế | |
+
+Ví dụ:
+*   *Gốc (Tiên hiệp):* "Vãn bối Gao xin nghe lệnh tiền bối."
+*   *Sửa (Phương Tây):* "Kẻ tôi tớ hèn mọn Gao xin lắng nghe thánh ý của Ngài." (Hoặc: "Thuộc hạ Gao xin nghe theo sự sắp đặt của Ngài..")
+
+### 2. QUY TẮC VIỆT HÓA DANH HIỆU & THUẬT NGỮ (TERMINOLOGY)
+
+Cấu trúc Hán Việt `[Danh từ] + Chi + [Danh từ]` (VD: Thẩm Phán Chi Thần) nghe rất "Game online Trung Quốc". Hãy chuyển sang cấu trúc Thuần Việt hoặc Đảo ngữ để nghe "Tây" hơn.
+
+| Thuật ngữ gốc (Hán Việt) | Đề xuất Việt hóa (Sang trọng hơn) | Lý giải |
+| :--- | :--- | :--- |
+| Thẩm Phán Chi Thần | Thần Thẩm Phán / Chúa Tể Phán Xét | Bỏ chữ "Chi", nghe quyền lực hơn |
+| Dục Vọng Chi Thần | Thần Dục Vọng / Chúa Tể Dục Vọng | Tương tự |
+| Thiết Thần Giả | Kẻ Trộm Thần / Kẻ Cắp Thần | Gần gũi, rõ nghĩa "kẻ đánh cắp danh hiệu thần" |
+| Ngụy Thần | Thần giả | |
+| Hàng Lâm Giáo Phái | Giáo Phái Giáng Thế / Hội Hàng Lâm | "Giáng thế" nghe thánh thiện (dù là tà giáo) |
+| Tâm Nguyện Chi Ma | Ác Ma Tâm Nguyện / Quỷ Ước Nguyện | Nghe giống tên boss phương Tây |
+| Sơn Hà Xã Tắc Đồ | *(Giữ nguyên)* | Đây là pháp bảo phương Đông, giữ nguyên để tạo sự đối lập |
+| Phong Nguyệt Bảo Giám | Gương Soi Dục Vọng / Gương Thần | Nếu Lý Dã đang chém gió với dân Tây thì gọi là Gương Thần. Trong suy nghĩ thì giữ tên gốc. |
+
+### 3. QUY TẮC VĂN PHONG (TONE & VOICE)
+
+Bối cảnh là các Thần Điện (Pantheon) và Nhà Thờ (Church), văn phong cần mang hơi hướng Kinh Thánh (Biblical) hoặc Sử Thi (Epic).
+
+Từ khóa nên dùng:
+*   *Thay vì:* Giết, chém, đánh nhau. $\rightarrow$ Dùng: Thanh tẩy, trừng phạt, phán xét, chinh phạt.
+*   *Thay vì:* Lừa đảo, nói dối. $\rightarrow$ Dùng: Mê hoặc, gieo rắc, cám dỗ.
+*   *Thay vì:* Ánh sáng, sức mạnh. $\rightarrow$ Dùng: Thánh quang, vinh quang, ân điển, quyền năng.
+
+Ví dụ đoạn thoại của Lý Dã (Chương 280):
+
+*   *Dịch kiểu cũ:* "Ta là Thẩm Phán Chi Thần. Các ngươi đã bị Dục Vọng Chi Thần lừa rồi. Hắn là một tên lừa đảo." (Nghe rất phèn).
+*   *Dịch kiểu mới:* "Ta là Thần Thẩm Phán, ngọn giáo được tôi luyện bởi ý chí của Chư Thần. Các ngươi, hỡi những con chiên lạc lối, đã bị Thần Dục Vọng che mắt. Hắn là Kẻ Trộm Thần, kẻ đã đánh cắp vinh quang của đỉnh Olympus..."
+
+### 4. DANH SÁCH NHÂN VẬT & CÁCH XƯNG HÔ CẬP NHẬT (CHƯƠNG 275-300)
+
+Nhân vật chính:
+*   Lý Dã (Mục):
+    *   Tự xưng: Ta (dùng cho mọi đối tượng).
+    *   Gọi Zeus/Hermes: Ngươi / Kẻ mạo danh.
+    *   Gọi Giáo hoàng/Thánh tử: Ngươi / Các con / Kẻ sa ngã.
+
+Nhân vật phụ (Phe Phương Tây):
+*   Delasha (Rồng):
+    *   Gọi Lý Dã: Chủ nhân.
+    *   Tự xưng: Ta / Em (nếu muốn lẳng lơ) hoặc Nô tỳ (khi sợ hãi). *Lưu ý: Rồng phương Tây kiêu ngạo, lúc đầu xưng Ta - Ngươi, sau khi bị đánh thì hạ mình.*
+*   Giáo hoàng (Gao/Mann/Aug):
+    *   Gọi Lý Dã: Thưa Ngài / Đức Ngài / Thần Thẩm Phán.
+    *   Tự xưng: Con / Kẻ hèn này.
+*   Thánh tử (Alan/Robert/Scott):
+    *   Gọi Lý Dã: Tà thần (lúc đầu) $\rightarrow$ Đức Ngài (lúc sau).
+*   Zeus / Hermes:
+    *   Gọi Lý Dã: Ngươi / Mục.
+    *   Tự xưng: Ta.
+
+### 5. LƯU Ý KHI DỊCH KỸ NĂNG CỦA CÁC THẦN
+
+Map này Lý Dã copy kỹ năng của 12 Chủ Thần, tên kỹ năng nên dịch thoáng và "Tây" hóa:
+
+*   Lôi Đình (Zeus): Quyền Năng Sấm Sét / Phán Quyết Sấm Sét.
+*   Hư Không Chi Túc (Hermes): Bước Chân Hư Không / Thần Hành (giữ nguyên nếu thấy hay, hoặc dịch là "Dịch Chuyển Tức Thời").
+*   Mị Hoặc: Cám Dỗ / Mê Hoặc.
+
+---
+Tóm lại: Bạn hãy tưởng tượng mình đang dịch *Chúa Tể Những Chiếc Nhẫn* hoặc *Thần Thoại Hy Lạp* nhưng nhân vật chính lại là một nhân vật hiện đại đang cố diễn sâu. Sự tương phản giữa suy nghĩ (Hiện đại/Cờ bạc) và lời nói (Sử thi/Tôn giáo) của Lý Dã sẽ là điểm nhấn hài hước của map này.

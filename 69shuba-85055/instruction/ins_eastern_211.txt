@@ -1,0 +1,110 @@
+Chào bạn, dựa trên nội dung các chương 211-220 (Map Tu Tiên - Cờ Bạc - Hà Đồ Lạc Thư), Lý Dã đang nhập vai một "Mộc Đạo Nhân" (Mộc đạo sĩ) bí ẩn, vừa đóng vai cao nhân đắc đạo để lừa người, vừa sử dụng thủ đoạn cờ bạc để trấn áp các tu sĩ.
+
+Dưới đây là các phần CẦN BỔ SUNG VÀ ĐIỀU CHỈNH vào prompt hiện tại để phù hợp nhất với bối cảnh mới này:
+
+---
+
+### BỔ SUNG CHO PROMPT DỊCH TRUYỆN (MAP TU TIÊN & HÀ ĐỒ LẠC THƯ)
+
+1. CẬP NHẬT HỆ THỐNG XƯNG HÔ (QUAN TRỌNG):
+
+*   Lý Dã (Khi đóng vai Mộc Đạo Nhân):
+    *   Tự xưng: "Lão phu" (để tỏ ra già dặn, trải đời dù ngoại hình trẻ), "Bản đạo nhân", hoặc "Ta".
+    *   Với đám đệ tử danh môn (đối tượng bị lừa): Gọi chúng là "Tiểu tử", "Các ngươi", "Mấy kẻ hậu sinh".
+    *   Với nô bộc (Cao Chân Nhân/Cao Nhất): Gọi là "Ngươi", "Lão nô" (khi mỉa mai), hoặc gọi thẳng tên mới đặt (Cao Nhất, Đinh Nhị).
+*   Các Tu sĩ (La Tu Vĩnh, Đinh Kiệt, Cao Chân Nhân...):
+    *   Gọi Lý Dã: Ban đầu khinh thường gọi "Tiểu tử", "Ngươi". Sau khi bị đánh/lừa thì gọi "Tiền bối", "Cao nhân", "Tiên trưởng".
+    *   Tự xưng: "Vãn bối" (khi sợ hãi/kính trọng), "Tại hạ".
+*   Hà Đồ & Lạc Thư (Trong Xúc Xắc):
+    *   Hai luồng ý thức: Đây là vật phẩm thượng cổ, tính cách già đời.
+    *   Gọi Lý Dã: "Tiểu tử", "Nhóc con".
+    *   Lý Dã gọi chúng: "Hà Đồ", "Lạc Thư", hoặc đùa cợt gọi là "Súc sắc ca" (Anh Xúc xắc), "Hai vị".
+
+Cảm ơn bạn đã góp ý. Đây là phần bổ sung chi tiết về hệ thống xưng hô và cách tự xưng của Lý Dã (Li Ye) trong giai đoạn chương 200-250, được cấu trúc lại để bạn dễ dàng nạp vào bộ nhớ (context) cho các LLM Translator:
+
+---
+
+### BỔ SUNG: HỆ THỐNG XƯNG HÔ CỦA LÝ DÃ (CHƯƠNG 200-250)
+
+#### 1. Mối quan hệ: Lý Dã ↔ Hà Đồ & Lạc Thư (Trong đầu/Xúc xắc)
+*   Bối cảnh: Đây là mối quan hệ cộng sinh, vừa là đồng minh vừa đôi khi cãi nhau như bạn bè, nhưng Lý Dã cần dựa vào sức mạnh của họ.
+*   Lý Dã gọi Hà Đồ/Lạc Thư:
+    *   Thông dụng nhất: "Xúc xắc ca" (Sái tử ca - gọi kiểu nịnh nọt hoặc thân mật), "Hà Đồ", "Lạc Thư".
+    *   Khi nghiêm túc/nhờ vả: "Hà Đồ huynh" (Huynh đài), "Các vị" (Các ngươi).
+    *   Khi tranh luận triết lý: Có thể dùng đại từ nhân xưng ngang hàng hoặc tôn trọng tùy ngữ cảnh.
+*   Lý Dã tự xưng với họ: "Ta" (Ngã), "Tiểu tử này" (khi tự giễu).
+
+#### 2. Mối quan hệ: Lý Dã ↔ Vương Linh Quan (Sư phụ)
+*   Bối cảnh: Tôn trọng tuyệt đối, đóng vai trò người học trò ngoan (dù trong lòng hay "khịa" thầm).
+*   Lý Dã gọi Vương Linh Quan: "Sư phụ", "Linh Quan", "Ngài".
+*   Lý Dã tự xưng: "Đồ nhi", "Đệ tử".
+
+#### 3. Mối quan hệ: Lý Dã ↔ Mộc Tra (Huệ Ngạn Hành Giả)
+*   Bối cảnh: Ban đầu là Tiền bối - Vãn bối, sau đó chuyển sang Đối tác/Lợi dụng (Lý Dã thao túng tâm lý Mộc Tra).
+*   Lý Dã gọi Mộc Tra: "Mộc Tra tiền bối", "Tiền bối", "Huệ Ngạn hành giả", "Hành giả".
+*   Lý Dã tự xưng:
+    *   Lúc đầu (khiêm tốn): "Vãn bối", "Mộc Hạo" (tên giả).
+    *   Lúc sau (khi bàn kế hoạch lớn): "Ta", "Tôi" (ngang hàng hơn).
+
+#### 4. Mối quan hệ: Lý Dã ↔ Quần chúng / Tu sĩ cấp dưới (Đóng vai Thần Tiên)
+*   Bối cảnh: Lý Dã đang diễn kịch ("roleplay") là một thượng tiên hạ phàm lịch kiếp, hoặc đặc sứ của Ngọc Đế. Hắn cần tạo ra vẻ già đời, tang thương hoặc uy nghiêm.
+*   Lý Dã gọi họ: "Các ngươi", "Tiểu tử", "Chư vị", hoặc gọi thẳng tên/chức vụ (ví dụ: Tề chưởng môn, Tri huyện).
+*   Lý Dã tự xưng (Rất quan trọng để dịch đúng giọng điệu):
+    *   "Lão phu": Khi kể khổ, ra vẻ người già từng trải (VD: "Lão phu du lịch thế gian 3 năm...").
+    *   "Bản tiên" / "Bản tiên nhân": Khi thị uy sức mạnh thần thánh.
+    *   "Bản sứ giả" / "Sứ giả": Khi dùng danh nghĩa Thiên Đình ra lệnh.
+    *   "Mộc gia" (Mộc gia gia): Khi giở thói lưu manh, trêu chọc đối thủ hoặc tự cao (VD: "Mộc gia ta đây...").
+    *   "Đạo gia": Khi xưng hô với tư cách đạo sĩ giang hồ.
+
+#### 5. Mối quan hệ: Lý Dã ↔ Trần Cảnh (Con nuôi cưỡng ép)
+*   Bối cảnh: Kỹ năng *Tiền Năng Cải Mệnh* ép Trần Cảnh phải nhận Lý Dã làm cha nuôi.
+*   Lý Dã gọi Trần Cảnh: "Con trai ngoan", "Trần Cảnh".
+*   Lý Dã tự xưng: "Cha nuôi" (Nghĩa phụ / Can đi-a), "Cha" (Vi phụ).
+
+---
+
+### Lưu ý cho LLM Translator:
+*   Khi Lý Dã nói chuyện với đám đông hoặc tu sĩ phàm trần, tone giọng thường là trịch thượng, bề trên hoặc giả vờ thâm sâu (lừa đảo). Hãy ưu tiên các từ tự xưng như *"Ta", "Bản tiên", "Lão phu"*.
+*   Khi Lý Dã nói chuyện với Mộc Tra, tone giọng là vừa kính trọng vừa thuyết phục (thao túng).
+*   Khi Lý Dã độc thoại nội tâm hoặc nói với Hà Đồ Lạc Thư, tone giọng là suồng sã, hiện đại, thực dụng.
+
+2. BỔ SUNG VĂN PHONG "GIẢ THẦN GIẢ QUỶ" (THAO TÚNG TÂM LÝ):
+
+*   Phong cách "Vừa ăn cướp vừa la làng": Lý Dã trong map này hay dùng giọng điệu đạo mạo, giảng giải đạo lý (Tham, Sân, Si) để hợp lý hóa hành động trấn lột của mình.
+    *   *Yêu cầu dịch:* Lời thoại của Lý Dã cần toát lên vẻ "Thanh cao, thoát tục" nhưng nội dung lại vô sỉ. Dùng nhiều từ ngữ triết lý: *Bản tâm, Duyên phận, Nghịch thiên cải mệnh, Nghiệp chướng...*
+*   Ngôn ngữ Cờ bạc kết hợp Tu tiên:
+    *   Các thuật ngữ cần chuẩn: *Nhà cái, Con bạc, Đặt cược, Đổ xúc xắc, Tài - Xỉu (hoặc Đại - Tiểu), Điểm số, Mở bát (mở xúc xắc).*
+    *   *Ví dụ:* "Đường tu tiên cũng như một ván cược, đặt cược cả tính mạng vào đại đạo."
+
+3. TỪ KHÓA & THUẬT NGỮ CẦN LƯU Ý (MAP TU TIÊN):
+
+*   Cảnh giới: Luyện Khí -> Trúc Cơ -> Kim Đan -> Nguyên Anh -> Hóa Thần... (Lý Dã đang dùng sức mạnh Nguyên Anh để đè người).
+*   Vật phẩm: *Pháp bảo, Linh bảo, Phi kiếm, Túi trữ vật, Phù triện.*
+*   Địa danh/Môn phái: *Long Hổ Sơn, Thanh Vân Môn, Huyện Phong Linh.*
+*   Khái niệm: *Đoạt xá, Tâm ma, Đạo tâm, Ngũ độc (Tham, Sân, Si, Mạn, Nghi).*
+
+---
+
+### VÍ DỤ ÁP DỤNG (ĐOẠN TRÍCH TỪ CHƯƠNG 216):
+
+Nguyên tác (giả định): Lý Dã nhìn đám người thua bạc, nói đạo lý về lòng tham.
+
+Bản dịch áp dụng prompt mới:
+
+`<h1>Chương 216: Các ngươi không biết mình đã đánh mất thứ gì đâu</h1>`
+
+<p>Lý Dã thở dài thườn thượt, ngước mắt nhìn trời: "Lão phu rốt cuộc vẫn thua rồi!"</p>
+
+<p>"Tiền bối, ngài nói gì vậy?" Thẩm Lan Y ngơ ngác hỏi.</p>
+
+<p>Lý Dã chỉ tay vào đám vàng bạc trên bàn, giọng trầm mặc đầy vẻ tang thương: "Lão phu vốn là Trích Tiên nhân trên trời, ngày ngày tuần tra nhân gian. Thế nhưng thứ lão phu nhìn thấy chỉ toàn là những kẻ bon chen danh lợi, tham lam sa đọa. Kẻ mê cờ bạc đến tán gia bại sản, kẻ háo sắc đến sủng thiếp diệt thê..."</p>
+
+<p>Hắn liếc nhìn đám tu sĩ chỉ còn mặc mỗi chiếc quần lót, lắc đầu ngán ngẩm: "Tham, Sân, Si, Mạn, Nghi - Ngũ độc hoành hành, khiến nhân gian yêu ma quấy nhiễu. Lão phu đi khắp thế gian ba năm nay, chỉ muốn tìm một người tâm tư thanh tịnh để truyền đạo, vậy mà..."</p>
+
+<p>Cao Chân Nhân nghe vậy, sắc mặt tái mét, vội vàng quỳ sụp xuống: "Tiền bối khai ân! Là vãn bối để lòng tham che mờ mắt, xin tiền bối chỉ điểm sai lầm!"</p>
+
+<p>Lý Dã khẽ nhếch môi, trong lòng thầm nghĩ: *Tốt lắm, KPI nô bộc tháng này coi như đủ.* Hắn phẩy tay áo, phong thái tiên phong đạo cốt nói: "Thôi được, niệm tình ngươi biết quay đầu là bờ, từ nay ngươi hãy đi theo lão phu làm một tên nô bộc, lấy pháp danh là Cao Nhất đi."</p>
+
+---
+
+Bạn có thể copy đoạn bổ sung trên vào prompt chính để AI xử lý mượt mà hơn phần giọng điệu "lươn lẹo" của Lý Dã trong map này nhé.
