@@ -59,6 +59,7 @@ Nhân vật chính:
     *   Tự xưng: Ta (dùng cho mọi đối tượng).
     *   Gọi Zeus/Hermes: Ngươi / Kẻ mạo danh.
     *   Gọi Giáo hoàng/Thánh tử: Ngươi / Các con / Kẻ sa ngã.
+    *   Ngôi kể thứ ba về Lý Dã: Luôn dùng "Hắn".
 
 Nhân vật phụ (Phe Phương Tây):
 *   Delasha (Rồng):
