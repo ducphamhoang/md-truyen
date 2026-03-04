@@ -1,0 +1,331 @@
+# QUAN HỆ NHÂN VẬT - CHƯƠNG 001-130
+
+## MẪU ĐỊNH DẠNG
+Tên nhân vật A | Tên nhân vật B | Quan hệ | Lưu ý
+
+---
+
+## GIA ĐÌNH HỌ HOA (ĐẠI PHÒNG)
+
+Hoa Trường Hy | Hoa Minh Hách | Cha con | Cửu nương là con gái thứ 9 của Hoa Minh Hách
+Hoa Trường Hy | Diêu thị | Mẹ con | Diêu thị là chính thất của Hoa Minh Hách
+Hoa Trường Hy | Hoa Lão gia tử | Ông nội - Cháu gái | Hoa Lão gia tử = Hoa Bân, gia trưởng phong kiến
+Hoa Trường Hy | Hoa lão thái thái | Bà nội - Cháu gái | Hoa lão thái thái trọng nam khinh nữ
+Hoa Trường Hy | Hoa Lục Lang | Anh em ruột | Lục ca là anh trai thứ 6, Hoa Trường Hy là Cửu muội
+Hoa Trường Hy | Hoa Tam Lang | Anh em ruột | Tam ca là anh trai thứ 3
+Hoa Trường Hy | Hoa Đại Lang | Anh em ruột | Đại ca là anh cả, đang học ở Võ Viện
+Hoa Trường Hy | Hoa Bát Lang | Anh em họ | Bát ca là con trai nhị phòng
+Hoa Trường Hy | Hoa Ngũ Nương | Chị em họ | Ngũ tỷ là con gái tứ phòng, hơn 1 tuổi, đang mang thai
+Hoa Trường Hy | Hoa Thất Nương | Chị em họ | Thất tỷ là con gái tứ phòng, bằng tuổi
+Hoa Trường Hy | Hoa Thập Nhị Nương | Chị em họ | Thập Nhị muội là con gái tứ phòng, nhỏ hơn 1 tuổi
+Hoa Trường Hy | Hoa Thập Tứ Nương | Chị em họ | Thập Tứ muội là con gái tứ phòng, nhỏ nhất (7 tuổi)
+Hoa Minh Hách | Hoa Lão gia tử | Cha con | Hoa Minh Hách là trưởng tử
+Hoa Minh Hách | Hoa lão thái thái | Mẹ con | Hoa Minh Hách được kỳ vọng nhất
+Hoa Minh Hách | Hoa Minh Ngang | Anh em ruột | Nhị đệ, làm sai dịch Nam Thành Binh Mã Ty
+Hoa Minh Hách | Hoa Minh Thành | Anh em ruột | Tứ đệ, làm ngục tốt Hình Bộ
+Hoa Minh Hách | Hoa Tri Nhan | Anh em ruột | Tam muội, gả vào Thẩm gia
+Diêu thị | Hoa lão thái thái | Mẹ chồng - Con dâu | Quan hệ căng thẳng, Hoa lão thái thái không thích Diêu thị
+Hoa Lão gia tử | Hoa Bân | Bản thân | Hoa Lão gia tử tên thật là Hoa Bân
+
+---
+
+## GIA ĐÌNH HỌ HOA (NHỊ PHÒNG)
+
+Hoa Nhị Thúc | Hoa Minh Ngang | Bản thân | Nhị thúc = Hoa Minh Ngang
+Hoa nhị thẩm | Hoa Minh Ngang | Vợ chồng | Nhị thẩm = Phạm thị (con gái cháu gái Hoa lão thái thái)
+Hoa Bát Lang | Hoa Nhị Thúc | Cha con | Bát ca là con trai nhị phòng
+Hoa Bát Lang | Hoa nhị thẩm | Mẹ con | Bát ca là con trai nhị phòng
+
+---
+
+## GIA ĐÌNH HỌ HOA (TỨ PHÒNG)
+
+Hoa tứ thúc | Hoa Minh Thành | Bản thân | Tứ thúc = Hoa Minh Thành
+Hoa tứ thẩm | Hoa Minh Thành | Vợ chồng | Tứ thẩm = Liễu thị
+Hoa Ngũ Nương | Hoa tứ thúc | Cha con | Ngũ tỷ là con gái lớn tứ phòng, đã cập kê (15 tuổi)
+Hoa Ngũ Nương | Hoa tứ thẩm | Mẹ con | Ngũ tỷ bị bán làm thiếp cho Hạ Tam gia
+Hoa Thất Nương | Hoa tứ thúc | Cha con | Thất tỷ là con gái thứ 2 tứ phòng
+Hoa Thất Nương | Hoa tứ thẩm | Mẹ con | Thất tỷ bằng tuổi Hoa Trường Hy (13 tuổi)
+Hoa Thập Nhất Lang | Hoa tứ thúc | Cha con | Thập Nhất Lang là đích trưởng tử tứ phòng
+Hoa Thập Nhất Lang | Hoa tứ thẩm | Mẹ con | Được hứa suất vào Võ Viện
+Hoa Thập Tam Lang | Hoa tứ thúc | Cha con | Thập Tam Lang là con trai thứ 3
+Hoa Thập Tứ Nương | Hoa tứ thúc | Cha con | Thập Tứ nương là con gái út (7 tuổi)
+
+---
+
+## TỘC HỌ HOA
+
+Hoa Thái | Chu Ngọc Nga | Mẹ con | Hoa Thái là trưởng tử của Chu Thái Phu nhân
+Hoa Thái | Chung thị | Vợ chồng | Chung thị là thê tử của Hoa Thái
+Chu Ngọc Nga | Chu ma ma | Chủ tớ | Chu ma ma là tâm phúc của Chu Thái Phu nhân
+Hoa Trường Hy | Chu Ngọc Nga | Tộc bà - Cháu gái | Chu Ngọc Nga = Đại tộc lão phu nhân, xem mắt để gả làm thiếp
+Hoa Ngũ Nương | Chu Ngọc Nga | Tộc bà - Cháu gái | Được chọn đi làm thiếp cho Hạ Tam gia
+Hoa Lão gia tử | Hoa Thái | Tộc huynh - Tộc đệ | Hoa Thái là Đại tộc lão nhị phòng (dưới quyền Hiển Diệu)
+Hoa Hiển Diệu | Hoa Thái | Cha con | Hoa Hiển Diệu là Đại tộc lão (Trưởng tộc Hoa)
+Hoa Minh Triết | Hoa Hiển Diệu | Cha con | Hoa Minh Triết là con trai của Đại tộc lão
+Hoa Hoằng Thần | Hoa Minh Triết | Cha con | Cháu nội Đại tộc lão
+Hoa Hoằng Đào | Hoa Minh Triết | Cha con | Cháu nội Đại tộc lão
+Hoa Trường Hy | Hoa Hiển Diệu | Tộc tổ phụ - Tộc tôn nữ | Đại tộc lão là vai ông nội trong tộc
+Hoa Trường Hy | Hoa Minh Triết | Tộc thúc - Tộc điệt nữ | Minh Triết là vai chú trong tộc
+Hoa Trường Hy | Hoa Vãn Nguyệt | Tộc tỷ - Tộc muội | Vãn Nguyệt là con gái Hoa Thái
+
+---
+
+## HẠ GIA (HẦU PHỦ)
+
+Hạ Tam gia | Hoa Ngũ Nương | Chủ - Thiếp | Hạ Tam gia 30 tuổi, con trai Võ Nghị hầu, chưa có con trai
+Hạ Tam gia | Hoa Thái | Ân nhân | Hạ Tam gia đưa 10 tấm Võ viện nhập học thiếp
+Hạ Tam gia | Hạ Tam phu nhân | Vợ chồng | Hạ Tam phu nhân là chính thất (Thẩm thị)
+Hoa Ngũ Nương | Hạ Tam phu nhân | Di nương - Chính thất | Hoa Ngũ Nương là di nương, đang sinh non
+Hoa Trường Hy | Hạ Tư Dung | Đồng minh tiềm năng | Hạ Tư Dung là Nhị nương tử Võ Nghị Hầu Phủ
+Hoa Trường Hy | Hạ Tư Kỳ | Đồng minh tiềm năng | Hạ Tư Kỳ là Tứ muội tử của Hạ Tư Dung
+Hạ Tam gia | Hạ Đại lang | Cha con | Hạ Đại lang là trưởng tử của Hạ Tam gia
+Hạ Tam gia | Hạ Tiểu Mãn | Cha con | Hạ Tiểu Mãn là con của Hoa Ngũ Nương, mới sinh
+Hoa Ngũ Nương | Hạ Tiểu Mãn | Mẹ con | Hạ Tiểu Mãn do Hoa Trường Hy đặt tên
+Võ Nghị Hầu | Hạ Tam gia | Cha con | Võ Nghị Hầu là cha của Hạ Tam gia
+Võ Nghị Hầu | Hạ Nhị gia | Anh em | Hạ Nhị gia là em của Võ Nghị Hầu
+Võ Nghị Hầu | Đậu thị | Vợ chồng | Đậu thị là Hầu phu nhân
+Hạ Nhị gia | Hạ Tam lang | Cha con | Hạ Tam lang là con của Hạ Nhị gia, tu sĩ Khí Hải cảnh đỉnh phong
+
+---
+
+## Y DƯỢC TY
+
+Giả công công | Hoa Trường Hy | Chủ - Thuộc hạ | Giả công công đã lập Tâm Ma Thệ với Hoa Trường Hy
+Ư công công | Hoa Trường Hy | Chủ - Thuộc hạ | Ư công công đã lập Tâm Ma Thệ với Hoa Trường Hy
+Triệu công công | Hoa Trường Hy | Chủ - Thuộc hạ | Triệu công công đã lập Tâm Ma Thệ với Hoa Trường Hy
+Chu công công | Hoa Trường Hy | Chủ - Thuộc hạ | Chu công công đã lập Tâm Ma Thệ với Hoa Trường Hy
+Tiểu Lộc Tử | Giả công công | Nghĩa tử - Nghĩa phụ | Tiểu Lộc Tử là thái giám thân tín
+Lãnh Hương Như | Lộc công công | Tình nhân | Lãnh Hương Như là nhị quản sự, có quan hệ với Lộc công công
+Lãnh Hương Như | Hoa Trường Hy | Cấp trên - Cấp dưới | Lãnh quản sự giao Hoa Trường Hy cho Đỗ Nhược
+Đỗ Nhược | Hoa Trường Hy | Cấp trên - Cấp dưới | Đỗ Nhược là tam quản sự, trực tiếp quản lý Hoa Trường Hy
+Lục Thanh La | Hoa Trường Hy | Đồng nghiệp | Lục Thanh La là tạp dịch, tốt bụng, để màn thầu cho Hoa Trường Hy
+Vương Vân Sơ | Hoa Trường Hy | Đồng nghiệp | Vương Vân Sơ là tạp dịch, địch ý với Hoa Trường Hy
+Lăng Tiêu | Đỗ Nhược | Đồng nghiệp | Lăng Tiêu là tam quản sự, không ưa Đỗ Nhược
+Ngưu quản sự | Lăng Tiêu | Cấp trên - Cấp dưới | Ngưu quản sự là nhị quản sự Đệ Ngũ Cục, có quan hệ với Lăng Tiêu
+Vu Hồi | Hoa Trường Hy | Đồng nghiệp | Vu Hồi là thủ khố, được Hoa Trường Hy lấy lòng
+Tôn y quan | Hoa Trường Hy | Giám khảo - Thí sinh | Tôn y quan nhận hối lộ, đánh trượt Hoa Trường Hy
+Hứa dược sư | Hoa Trường Hy | Chú - Cháu gái | Hứa dược sư ở Đệ Cửu Nhai, quen biết Hoa Trường Hy
+Vương y quan | Hứa dược sư | Bạn | Vương y quan ở Học Đồ Đường, hảo hữu của Hứa dược sư
+Tần thẩm tử | Hoa Trường Hy | Cấp trên - Cấp dưới | Tần thẩm tử là quản sự nhà bếp, được Hoa Trường Hy chữa bệnh
+Cố Khải Minh | Hoa Trường Hy | Ty trưởng - Quản sự | Cố Khải Minh là Y Dược Ty Ty trưởng
+Viên Thiên Thù | Cố Khải Minh | Sư đệ - Sư huynh | Viên Thiên Thù là đồng môn của Cố Cẩm Phàm
+Mục Thanh Dĩnh | Cố Khải Minh | Sư muội - Sư huynh | Mục Thanh Dĩnh ngưỡng mộ Cố Khải Minh
+Mục Thanh Dĩnh | Hoa Trường Hy | Đồng môn | Mục Thanh Dĩnh nghe Hoa Trường Hy giảng bài
+Chu Thu Vũ | Hoa Trường Hy | Cấp dưới | Chu Thu Vũ có Đơn mộc linh căn, được phái đến chăm sóc Hoa Ngũ Nương
+
+---
+
+## THẦN NÔNG ĐỈNH - CƠ缘 CỦA HOA TRƯỜNG HY
+
+Thần Nông Đỉnh | Hoa Trường Hy | Bản mệnh thần khí | Thần khí có thể hấp thụ linh khí và hồn lực, có Thức hải riêng
+Hỏa điểu | Thần Nông Đỉnh | Linh thú | Hỏa điểu phủ phục trên Thần Nông Đỉnh trong Thức hải
+Chu Tước Diễm | Hoa Trường Hy | Thần thông | Lửa đỏ thiêu đốt nguyên thần và hồn thể, khắc chế Phệ hồn thụ
+Hắc Diễm | Hoa Trường Hy | Ẩn họa | Hắc Diễm ký cư trong tim Nguyên anh, cần khống chế
+
+---
+
+## THẦN NÔNG ĐƯỜNG (CỬA TIỆM CỦA HOA TRƯỜNG HY)
+
+Hoa Trường Hy | Bồ Thảo | Chủ - Thuộc hạ / Tỷ muội | Bồ Thảo quản lý Thần Nông Đường, có Hỏa mộc linh căn
+Hoa Trường Hy | A Ngưu | Chủ - Thuộc hạ | A Ngưu có Huyết mạch Ngưu Thần, bị tiếng mõ dẫn dụ
+Hoa Trường Hy | Thanh Ngưu | Chủ - Yêu thú | Thanh Ngưu là yêu thú, sợ khí tức Chu Tước của Hoa Trường Hy
+Hoa Trường Hy | Tiểu Quế Tử | Khách hàng | Tiểu Quế Tử là thái giám Đông Xưởng, mua đan dược
+Hoa Trường Hy | Trác đại thương nhân | Khách hàng | Trác đại thương nhân mua nhiều đan dược
+Hoa Trường Hy | Chu Thu Vũ | Cấp dưới | Chu Thu Vũ có Đơn mộc linh căn
+Hoa Trường Hy | Vương Vân Sơ | Cấp dưới | Vương Vân Sơ có Hỏa mộc song linh căn
+Hoa Trường Hy | Quách Thành | Cấp dưới | Quách Thành có Thổ mộc linh căn
+Hoa Trường Hy | Hạ Tùng | Cấp dưới | Hạ Tùng là anh em họ Hạ, có đồ đằng thỏ
+Hoa Trường Hy | Hạ Bách | Cấp dưới | Hạ Bách là anh em họ Hạ, có đồ đằng thỏ
+Hoa Trường Hy | Hạ Ca | Cấp dưới | Hạ Ca là anh em họ Hạ, có đồ đằng thỏ
+Hoa Trường Hy | Tô Doanh | Cấp dưới | Tô Doanh có đồ đằng thỏ
+Hoa Trường Hy | Lâm Sinh | Chủ - Thuộc hạ | Lâm Sinh đã lập Tâm Ma Thệ, võ giả thất phẩm, đang luyện thể
+Ư Hồi | Hoa Trường Hy | Nghĩa huynh - Nghĩa muội | Ư Hồi quản lý 10 tiệm thuốc, gọi Hoa Trường Hy là "muội tử"
+
+---
+
+## ĐỊA ĐIỂM - PHÁP BẢO
+
+Ngũ Chỉ Sơn | Hoa Trường Hy | Chủ nhân | Hoa Trường Hy là chủ nhân Ngũ Chỉ Sơn, đã đột phá Hóa Anh Cảnh
+Tam Xoa Dược Cốc | Hoa Trường Hy | Chủ nhân | Hoa Trường Hy có Hỏa Linh Khoáng ở đây
+Tam Xoa Dược Cốc | Du lão | Người canh giữ | 4 người Du lão canh giữ Hỏa Linh Khoáng
+Địa hạ thành | Hồng Bào Yêu Đạo | Di tích | Nơi Hồng Bào Yêu Đạo huyết tế, có Chu Tước Truyền Công Thạch
+Lăng Quang Điện | Hoa Trường Hy | Điện chủ | Đạo điện bí ẩn dưới lòng đất, Hoa Trường Hy là điện chủ
+Vân Du | Hoa Trường Hy | Thuộc hạ - Điện chủ | Quản lý Đan Dược Phòng tại Lăng Quang Điện
+Tô Ngự | Hoa Trường Hy | Thuộc hạ - Điện chủ | Thành viên Luyện Công Đường tại Lăng Quang Điện
+Vân Du | Tô Ngự | Đồng đạo | Cùng làm việc tại Lăng Quang Điện
+Quỷ thị (Cửu U) | Lâm công công | Địa điểm | Thị trường tu sĩ bí ẩn trong kinh thành, cần lệnh bài mới vào được
+Chu Tước Truyền Công Thạch | Hoa Trường Hy | Cơ duyên | Truyền công thạch chứa Chu Tước công pháp, ở dưới nham thạch
+Chu Tước Truyền Công Bi | Hoa Trường Hy | Di tích | Thạch bi với lời thề Thiên đạo về Chu Tước chí
+Đồ Đằng Bát | Hoa Trường Hy | Pháp bảo | Pháp bảo soi ra Huyết mạch đồ đằng
+Cà sa đỏ rực | Trường Mi La Hán | Pháp bảo | Cà sa có Phật văn phòng ngự, chở được nhiều người qua Minh Hà
+Câu Hồn thiết trảo | Quỷ sai | Pháp khí | Thiết trảo khống chế hồn thể, quỷ sai sử dụng
+Phệ hồn thụ | Quỷ thị | Yêu thụ | Cây khổng lồ thôn phệ hồn lực, ở Hồn Tỉnh
+Chu Tước Ngọc Bội | Hoa Trường Hy | Tín vật | Ngọc bội nhận chủ Lăng Quang Điện, có nhiệm vụ chiêu mộ 10 vạn Chu Tước Quân
+Công Đức Kim Liên | Tương Quốc Tự | Bảo vật | Sen vàng chỉ mọc ở tự viện tích đại công đức
+Giác Trì | Tương Quốc Tự | Pháp bảo | Bể trong suốt có xá lợi và Thần Đăng chi lực
+Giác Văn | Hoa Trường Hy | Ấn ký | Hắc Ngư Văn - dấu hiệu đặc biệt trên tay
+Thanh Tâm Chú | Hoa Trường Hy | Kinh thư | Kinh thư giúp khống chế Hắc Diễm
+Khâm Thiên Lâu | Viên Khải | Địa điểm | Nơi Khâm Thiên Giám làm việc, ở phía Đông Thiên Bộ
+Quang Âm Lâu | Sử quan | Địa điểm | Nơi sử quan biên soạn sử sách, ở phía Tây Thiên Bộ
+Thiết Tượng Phường | Lỗ đại sư | Địa điểm | Phường rèn sắt ở Đông Nam ngoại thành, có luyện khí sư
+Đế Hưu Tự | Quy Nhất Đại Sư | Địa điểm | Phật tự ở Tây Nam kinh thành, Tịnh Liễu thuộc về đây
+
+---
+
+## NGŨ CHỈ SƠN
+
+Hoa Trường Hy | Sơn Linh | Chủ - Linh | Sơn Linh là linh của Ngũ Chỉ Sơn, gọi Hoa Trường Hy là "Tiên tử/Chủ nhân"
+Hoa Trường Hy | Tiểu Tùng | Chủ - Linh | Tiểu Tùng (Nghênh Khách Tùng) là linh của Ngũ Chỉ Sơn
+Hoa Trường Hy | An Trạch | Chủ - Thuộc hạ | An Trạch là dân làng, được Hoa Trường Hy giúp trở thành tu sĩ
+Hoa Trường Hy | An Nhiên | Chủ - Thuộc hạ | An Nhiên là dân làng, được Hoa Trường Hy giúp trở thành tu sĩ
+
+---
+
+## NHÂN VẬT KHÁC
+
+Cố Cẩm Phàm | Trung niên nam tử | Cha con | Cố Cẩm Phàm = Thất nương, xuất hiện Chương 2
+Hồng bào lão giả | Hoa Trường Hy | Kẻ thù | Yêu đạo, bắt Hoa Trường Hy để hiến tế
+Tiểu nương tử (Cố Cẩm Phàm) | Hoa Trường Hy | Người xa lạ | Giúp Hoa Trường Hy cởi trói, sau đó tranh đoạt cơ duyên
+Hoa Trường Hy | Bạch Y Hòa Thượng | Kẻ thù | Bạch y hòa thượng bí ẩn, bị Hoa Trường Hy thiêu chết
+Hoa Trường Hy | Bàng Thiếu Vũ | Đối tượng điều tra | Bàng Thiếu Vũ là Cẩm Y Vệ Bách hộ, đã thành tu sĩ
+Hoa Trường Hy | Doãn Kiếm Hùng | Cấp trên gián tiếp | Doãn Kiếm Hùng là cấp trên của Bàng Thiếu Vũ
+Hoa Trường Hy | Hứa Linh | Bạn | Hứa Linh là con gái Hứa Dược Sư, được Không Hải dạy tu luyện
+Hoa Trường Hy | Không Hải | Nghi ngờ | Hòa thượng bí ẩn, mặc tăng bào màu vàng
+Hoa Trường Hy | Cổ Hưng | Tiền bối - Hậu bối | Cổ Hưng trông coi Quảng trường lão viện, Đan Thánh Điện
+Hoa Trường Hy | Cố Cẩm Phàm | Biến số / Đối thủ | Cố Cẩm Phàm là trọng sinh giả, biết Hoa Trường Hy kiếp trước đã chết
+Thẩm Thiên Phàm | Hoa Trường Hy | Đồng sự có mộc bài | Thẩm Thiên Phàm có mộc bài Kỳ Hoàng Quán
+Chúc Thanh Hoan | Hoa Trường Hy | Đồng sự có mộc bài | Chúc Thanh Hoan có mộc bài Kỳ Hoàng Quán
+Cố Cẩm Phàm | Tằng Hồng | Sư muội - Sư huynh | Tằng Hồng làm việc cho Cố Cẩm Phàm
+Cố Khải Minh | Viên Thiên Thù | Sư huynh - Sư đệ | Viên Thiên Thù là đồng môn của Cố Cẩm Phàm
+Cố Khải Minh | Mục Thanh Dĩnh | Sư huynh - Sư muội | Mục Thanh Dĩnh ngưỡng mộ Cố Khải Minh
+Tào Tuấn | Hoa Trường Hy | Kẻ thù | Tào Tuấn = Kinh Triệu phủ Phủ doãn, đã bị Hoa Trường Hy giết
+Hồng Bào Yêu Đạo | Tào Tuấn | Cha con | Hồng Bào Yêu Đạo là cha của Tào Tuấn
+Sở Quân Hào | Hoa Trường Hy | Người nghe giảng | Sở Quân Hào = Thất hoàng tử, thường xuyên nghe Hoa Trường Hy giảng bài
+Đoạn Ngữ Yên | Sở Quân Hào | Biểu muội - Biểu ca | Đoạn Ngữ Yên gọi Sở Quân Hào là biểu ca
+Hoa Vãn Nguyệt | Hoa Trường Hy | Tộc muội - Tộc tỷ | Hoa Vãn Nguyệt là cháu gái Hoa Thái gia
+Hoa Thư Nhiễm | Hoa Trường Hy | Tộc muội - Tộc tỷ | Hoa Thư Nhiễm là con gái Bá phủ, bằng tuổi Hoa Trường Hy
+Du lão | Hoa Trường Hy | Thuộc hạ | 4 người Du lão canh giữ Hỏa Linh Khoáng ở Tam Xoa Dược Cốc
+Hoàng Mãng | Hoa Trường Hy | Kẻ thù | Hoàng Mãng = Ngưu Đầu tôn giả, yêu tộc tu hồn, thích Hoa Trường Hy
+Bạch Cốt phu nhân | Hoàng Mãng | Đồng minh | Yêu tộc cường giả ở Quỷ thị
+Trường Mi La Hán | Hoa Trường Hy | Ân nhân | La hán Tương Quốc Tự, đã hy sinh cứu Hoa Trường Hy và người khác
+Minh Long | Bạch Cốt phu nhân | Thuộc hạ | Lục long ở Minh Hà, bị Hoa Trường Hy trọng thương
+Ngụy Chấn Kiệt | Sở Quân Ngật | Sư phụ - Đệ tử | Ngụy Chấn Kiệt = Thiên Bộ bộ trưởng
+Sở Quân Ngật | Ngụy Chấn Kiệt | Sư phụ - Đệ tử | Sở Quân Ngật = đệ tử đắc ý của Ngụy Chấn Kiệt, dẫn Trấn Ma Quân
+Phúc Vương | Hoàng Thượng | Anh em | Phúc Vương là bào đệ của Hoàng Thượng
+Thái thượng hoàng | Hoàng Thượng | Cha con | Thái thượng hoàng đã nhường ngôi, tu thiền học đạo
+Tống Vi Dân | Tào Tuấn | Sư đệ - Sư huynh | Sư huynh là Kinh Triệu phủ Phủ doãn Tào Tuấn
+Tống Vi Dân | Hoa Trường Hy | Kẻ thù tiềm năng | Truy tìm tung tích Tào Tuấn (người bị Hoa Trường Hy giết)
+Bàng Thiếu Vũ | Hoa Trường Hy | Bạn / Đối tác | Bàng Thiếu Vũ gọi MC là "Hoa cô nương" hoặc "Cửu nương"
+
+---
+
+## ĐÔNG XƯỞNG
+
+Tuyên công công | Hoa Trường Hy | Khách hàng - Bác sĩ | Tuyên công công nhờ Hoa Trường Hy chữa bệnh
+Tuyên công công | Ư công công | Đồng nghiệp | Cùng làm trong cung
+Trương Phóng | Tuyên công công | Cấp trên - Cấp dưới | Trương Phóng là Đông Xưởng Đề đốc
+Lâm công công | Hoa Trường Hy | Ân nhân | Lâm công công tặng 10 bộ Linh châm, con trai lập Tâm Ma Thệ với Hoa Trường Hy
+Lâm Sinh | Hoa Trường Hy | Chủ - Thuộc hạ | Lâm Sinh đã lập Tâm Ma Thệ, là võ giả thất phẩm, đang luyện thể
+Lâm công công | Lâm Sinh | Cha con | Lâm Sinh là con nuôi nhưng có huyết thống với Lâm công công
+Lỗ đại sư | Lâm công công | Đồng nghiệp | Lỗ đại sư là luyện khí sư Đông Xưởng, chế tạo Linh châm
+
+---
+
+## QUỶ THỊ (CỬU U)
+
+Bà lão tóc trắng (Minh Bà) | Hoa Trường Hy | Người giữ cầu | Nấu Phong linh thang ở đầu cầu, cho tu sĩ uống trước khi qua sông
+Hoàng Mãng | Hoa Trường Hy | Kẻ thù | Hoàng Mãng = Ngưu Đầu tôn giả, yêu tộc tu hồn, thích Hoa Trường Hy
+Bạch Cốt phu nhân | Hoàng Mãng | Đồng minh | Yêu tộc cường giả ở Quỷ thị, gọi Minh Long ra tay
+Minh Long | Bạch Cốt phu nhân | Thuộc hạ | Lục long ở Minh Hà, bị Hoa Trường Hy trọng thương
+Quỷ sai | Trường Mi La Hán | Kẻ thù | Quỷ sai Quỷ thị, sử dụng Câu Hồn trảo, Tước Hồn tiên
+Trường Mi La Hán | Hoa Trường Hy | Ân nhân | La hán Tương Quốc Tự, đã hy sinh cứu Hoa Trường Hy và người khác
+Lâm công công | Hoa Trường Hy | Đối tác | Đông Xưởng thái giám, đưa lệnh bài Quỷ thị, có mục đích riêng
+Lỗ đại sư | Hoa Trường Hy | Gián tiếp hợp tác | Luyện khí sư Thiết Tượng Phường, muốn lợi dụng Hoa Trường Hy
+
+### CỬU U QUAN ẢI:
+Càn môn, Khôn môn, Chấn môn, Cấn môn, Ly môn, Khảm môn, Đoài môn, Tốn môn, Trung môn
+- Cấn Môn Quan: Trấn Ma Quân chiếm đóng (Ngụy Chấn Kiệt)
+- Minh Hà: Sông xanh ngăn cách các quan ải, có lục long trấn giữ
+- Hồn Tỉnh: Giếng sâu có Phệ hồn thụ, dưới Ngưu Đầu Sơn có Hồn Tinh Khoáng
+
+---
+
+## THIÊN BỘ - TRIỀU ĐÌNH
+
+Ngụy Chấn Kiệt | Sở Quân Ngật | Sư phụ - Đệ tử | Ngụy Chấn Kiệt = Thiên Bộ bộ trưởng
+Sở Quân Ngật | Ngụy Chấn Kiệt | Sư phụ - Đệ tử | Sở Quân Ngật = đệ tử đắc ý, dẫn Trấn Ma Quân
+Sở Quân Hào | Ngụy Chấn Kiệt | Tổ tôn | Sở Quân Hào = Thất hoàng tử, cháu nội Ngụy Chấn Kiệt
+Phúc Vương | Hoàng Thượng | Anh em | Phúc Vương là bào đệ của Hoàng Thượng
+Thái thượng hoàng | Hoàng Thượng | Cha con | Thái thượng hoàng đã nhường ngôi, tu thiền học đạo
+Hoa Minh Hách | Lục Phiến Môn | Thuộc hạ | Hoa Minh Hách làm việc ở Lục Phiến Môn
+Tạ Chi Tầm | Hoa Minh Hách | Đồng nghiệp | Tạ Chi Tầm = Tổng bộ khoái Lục Phiến Môn
+Viên Khải | Khâm Thiên Giám | Giám chính | Viên Khải = Khâm Thiên Lâu Giám chính
+Mạnh Tử Ngự | Ngụy Chấn Kiệt | Thuộc hạ | Mạnh Tử Ngự thuộc hạ Thiên Bộ
+Diệp Cảnh Chu | Ngụy Chấn Kiệt | Thuộc hạ | Diệp Cảnh Chu thuộc hạ Thiên Bộ
+
+---
+
+## TƯƠNG QUỐC TỰ - PHẬT MÔN
+
+Vô Tướng Đại Sư | Tương Quốc Tự | Trụ trì | Trụ trì Tương Quốc Tự
+Vô Trần Đại Sư | Tương Quốc Tự | Đại sư | Cao tăng Tương Quốc Tự
+Tịnh Liễu | Quy Nhất Đại Sư | Sư phụ - Đệ tử | Tịnh Liễu được Hoa Trường Hy cứu ở Cửu U
+Quy Nhất Đại Sư | Đế Hưu Tự | Trụ trì | Trụ trì Đế Hưu Tự
+Trường Mi La Hán | Tương Quốc Tự | La hán | Đã viên tịch, hy sinh ở Cửu U
+Hoa Trường Hy | Tịnh Liễu | Ân nhân - Người được cứu | Hoa Trường Hy cứu Tịnh Liễu thoát Phệ Hồn Tỉnh
+
+---
+
+## THIẾT TƯỢNG PHƯỜNG - LUYỆN KHÍ SƯ
+
+Lỗ đại sư | Lâm công công | Hợp tác | Lỗ đại sư là luyện khí sư, hợp tác với Đông Xưởng
+Lỗ Vượng | Lỗ đại sư | Sư phụ - Đệ tử | Lỗ Vượng là đồ đệ của Lỗ đại sư
+Lâm công công | Lỗ đại sư | Hợp tác | Phân phối lệnh bài Quỷ thị
+
+---
+
+## LƯU Ý XƯNG HÔ CỔ PHONG (CẬP NHẬT CHUẨN)
+
+### Hoa Trường Hy tự xưng trong ĐỐI THOẠI:
+- Với cha mẹ: **Con / Nhi nữ** (Thân mật / Trang trọng)
+- Với ông bà (Tộc trưởng): **Tôn nữ** (Tuyệt đối không dùng "cháu" hay "ta")
+- Với chú / bác / cô / di: **Điệt nữ** (Tuyệt đối không dùng "cháu" hay "ta")
+- Với anh chị: **Muội** (Tuyệt đối không dùng "em")
+- Với cấp trên (Y Dược Ty): **Tiểu nữ / Vãn bối / Dân nữ**
+- Với thuộc hạ (Lăng Quang Điện): **Bản tọa** (trang trọng) hoặc **Ta** (thường ngày)
+- Với người lạ/Tiền bối bên ngoài: **Vãn bối / Tiểu nữ**
+
+### Ông bà / Trưởng bối gọi Hoa Trường Hy:
+- **Yêu thương:** Con / [Tên] + nhi (Cửu nhi)
+- **Nghiêm khắc / Gia trưởng:** **Ngươi** / Tên đầy đủ (như cách Hoa Lão gia tử hay quát)
+
+### Quy tắc DẪN CHUYỆN (Narrative):
+- Có thể dùng: **Nàng, hắn** để câu văn mượt mà (không dùng "cô" trong narrative)
+
+### Nhân vật khác:
+- **Bồ Thảo - Hoa Trường Hy:** Tỷ/Muội (thân thiết như chị em)
+- **Hứa Linh - Hoa Trường Hy:** Tỷ/Muội (bạn bè, xưng hô cổ phong)
+- **A Ngưu tự xưng:** **Ta** (không dùng "tôi")
+- **Thuộc hạ - Chủ tử:** **Tiểu nhân/Nô tài** - **Chủ tử**
+
+---
+
+## GHI CHÚ QUAN TRỌNG
+
+1. **"A cha/A nương"**: Flag lỗi. Thay bằng **"Phụ thân/Mẫu thân"**.
+2. **"Tôn nữ / Điệt nữ"**: Đây là chìa khóa tạo nên phong vị cổ văn thực thụ cho lời thoại.
+3. **Thứ bậc gia tộc**: Giữ nguyên cách gọi Lục ca, Tam tỷ, Cửu nương... theo đúng số thứ tự.
+4. **Đối tượng Y Dược Ty**:
+   - Cấp dưới gọi cấp trên: **Công công / Quản sự / Đại nhân / Ty trưởng**.
+   - Tự xưng: **Tiểu nữ / Vãn bối / Dân nữ**.
+5. **Narrative**: Dùng **"nàng"** thay vì **"cô"** khi nói về Hoa Trường Hy.
+6. **Tâm Ma Thệ**: Giả công công, Ư công công, Triệu công công, Chu công công đã lập Tâm Ma Thệ với Hoa Trường Hy.
+
+---
+
+## NHÂN VẬT MỚI (CHƯƠNG 145-150):
+- Thọ Vương | Hoa Trường Hy | Hoàng thúc / Kẻ thù tiềm năng | Tiếp quản Y Dược Ty, muốn mộc bài
+- Thường Uy | Bàng Thiếu Vũ | Cô phụ - Điệt nhi | Trấn phủ Bắc Trấn Phủ Ty
+- Tô Ngự | Hoa Trường Hy | Thuộc hạ - Điện chủ | Chu Tước Quân, Lăng Quang Điện
+- Vân Du | Hoa Trường Hy | Thuộc hạ - Điện chủ | Chu Tước Quân, quản lý Đan Dược Phòng

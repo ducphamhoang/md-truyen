@@ -1,0 +1,360 @@
+# KIỂM TRA XƯNG HÔ CỔ PHONG - CHƯƠNG 001-050
+
+## MỤC ĐÍCH
+File này dùng để AI Agent kiểm tra và phát hiện lỗi xưng hô trong các file dịch. Tất cả lỗi phải được sửa theo quy tắc cổ phong trong `xungho.txt`.
+
+---
+
+## QUY TẮC XƯNG HÔ BẮT BUỘC
+
+### ❌ TUYỆT ĐỐI KHÔNG DÙNG:
+- "Con", "Cháu", "Anh", "Em", "Bạn", "Tôi"
+- "A cha", "A nương" (khẩu ngữ hiện đại)
+- "Đại ca", "Chị" (gọi đồng nghiệp)
+
+### ✅ ƯU TIÊN SỬ DỤNG:
+
+#### **Gia đình:**
+| Vai trò | Tự xưng | Gọi đối phương |
+|---------|---------|----------------|
+| Con gái với cha mẹ | **Hài nhi** / **Nhi nữ** | **Phụ thân** / **Mẫu thân** |
+| Con trai với cha mẹ | **Hài nhi** / **Nhi tử** | **Phụ thân** / **Mẫu thân** |
+| Cháu với ông bà | **Hài nhi** / **Tôn nữ** / **Tôn tử** | **Tổ phụ** / **Tổ mẫu** |
+| Cháu với thúc/bá | **Hài nhi** / **Điệt nữ** / **Điệt tử** | **Bá phụ** / **Thúc phụ** / **Thẩm thẩm** |
+| Cháu với cô/dì | **Hài nhi** / **Sinh nữ** | **Cô mẫu** / **Di mẫu** |
+| Em với anh chị | **Ta** / **Muội** / **Đệ** | **Huynh** / **Ca ca** / **Tỷ** |
+| Anh chị với em | **Ta** / **Huynh** / **Tỷ** | **Muội muội** / **Đệ đệ** |
+
+#### **Cơ quan (Y Dược Ty) - Hoa Trường Hy:**
+| Vai trò | Tự xưng | Gọi đối phương |
+|---------|---------|----------------|
+| Với cấp trên (Giả công công) | **Tiểu nữ** / **Vãn bối** | **Công công** / **Đại nhân** |
+| Với quản sự trực tiếp (Đỗ Nhược) | **Muội** (thân mật) / **Tiểu nữ** | **Quản sự** / **Đỗ quản sự** |
+| Với đồng nghiệp nam lớn hơn (Vu Hồi) | **Tiểu muội** / **Muội** | **Huynh** / **Vu huynh** / **Vu đại ca** |
+| Với đồng nghiệp nữ lớn hơn (Lục Thanh La) | **Tiểu muội** / **Muội** | **Tỷ** / **Lục tỷ** / **Thanh La tỷ** |
+| Với đồng nghiệp ngang hàng/nhỏ hơn | **Ta** | Tên trực tiếp / **Ngươi** |
+| Xung đột/gay gắt | **Ta** | **Ngươi** / Tên trực tiếp |
+
+#### **Với Thúc/Bá/Cô/Dì:**
+| Vai trò | Tự xưng | Gọi đối phương |
+|---------|---------|----------------|
+| Với Hứa dược sư (thúc) | **Điệt nữ** | **Thúc** / **Hứa thúc** |
+
+---
+
+## DANH SÁCH LỖI CẦN KIỂM TRA
+
+### LOẠI 1: TỰ XƯNG "CON" VỚI CHA MẸ (~50 lỗi)
+
+**Pattern tìm kiếm:** `\bcon\b` (trong thoại nhân vật)
+
+**Ví dụ lỗi (nữ):**
+- "A cha, **con** không muốn..."
+- "A nương, **con** đã về rồi"
+- "**Con** biết rồi ạ"
+- "**Con** nhất định sẽ đi"
+
+**Sửa thành (nữ):**
+- "Phụ thân, **hài nhi** không muốn..."
+- "Mẫu thân, **hài nhi** đã về rồi"
+- "**Hài nhi** biết rồi ạ"
+- "**Hài nhi** nhất định sẽ đi"
+
+**Ví dụ lỗi (nam):**
+- "Phụ thân, **con** muốn vào Võ Viện"
+- "Mẫu thân, **con** đã thi đỗ rồi"
+
+**Sửa thành (nam):**
+- "Phụ thân, **hài nhi** muốn vào Võ Viện"
+- "Mẫu thân, **nhi tử** đã thi đỗ rồi"
+
+**Ngoại lệ (KHÔNG sửa):**
+- "con chó", "con mèo" (động vật)
+- "con nhỏ này", "con kia" (gọi người khác - miệt thị)
+- "con trai", "con gái" (danh từ chỉ giới tính)
+- "con cháu", "con dâu", "con rể" (danh từ quan hệ)
+- Người kể chuyện: "Diêu thị lo lắng **con gái** xảy ra chuyện"
+
+---
+
+### LOẠI 2: TỰ XƯNG "CHÁU" VỚI ÔNG BÀ/THÚC BÁ (~15 lỗi)
+
+**Pattern tìm kiếm:** `\bcháu\b` (trong thoại nhân vật)
+
+**Ví dụ lỗi (nữ):**
+- "Tổ mẫu, **cháu** không đi đâu"
+- "Hứa thúc, **cháu** vào Y Dược Ty rồi"
+- "**Cháu** chỉ lo Cửu nương bị đói"
+- "Nếu trong nhà không cho **cháu** đi"
+
+**Sửa thành (nữ):**
+- "Tổ mẫu, **hài nhi** không đi đâu" (với ông bà)
+- "Hứa thúc, **điệt nữ** vào Y Dược Ty rồi" (với thúc/bá)
+- "**Hài nhi** chỉ lo Cửu nương bị đói" (với ông bà)
+- "Nếu trong nhà không cho **hài nhi** đi" (với ông bà)
+
+**Ví dụ lỗi (nam):**
+- "Tổ phụ, **cháu** muốn học võ"
+- "Bá phụ, **cháu** xin vâng lệnh"
+
+**Sửa thành (nam):**
+- "Tổ phụ, **hài nhi** muốn học võ" (với ông bà)
+- "Bá phụ, **điệt tử** xin vâng lệnh" (với thúc/bá)
+
+**Ngoại lệ (KHÔNG sửa):**
+- Người kể chuyện: "đứa **cháu** gái", "mấy đứa **cháu**"
+- Danh từ: "**cháu** trai", "**cháu** gái", "con **cháu**"
+
+---
+
+### LOẠI 3: GỌI CHA MẸ "A CHA/A NƯƠNG" (~30 lỗi)
+
+**Pattern tìm kiếm:** `A cha|A nương`
+
+**Ví dụ lỗi:**
+- "**A cha**, đây là thuốc gì?"
+- "**A nương**, mau gọi Lục ca"
+- "**A cha**, **A nương**, để con tắm rửa"
+
+**Sửa thành:**
+- "**Phụ thân**, đây là thuốc gì?"
+- "**Mẫu thân**, mau gọi Lục ca"
+- "**Phụ thân**, **Mẫu thân**, để hài nhi tắm rửa"
+
+---
+
+### LOẠI 4: XƯNG HÔ ANH-EM HIỆN ĐẠI (~10 lỗi)
+
+**Pattern tìm kiếm:** `\bAnh\b|\bEm\b` (trong thoại, khi gọi người trong nhà)
+
+**Ví dụ lỗi:**
+- "**Anh** sáu, **em** không đồng ý"
+- "**Em** muốn nói chuyện"
+- "**Anh** đừng lo"
+
+**Sửa thành:**
+- "**Lục ca**, **muội** không đồng ý"
+- "**Muội** muốn nói chuyện"
+- "**Huynh** đừng lo"
+
+**Ngoại lệ (KHÔNG sửa):**
+- "Anh cao lớn", "em út" (người kể chuyện)
+- "huynh đệ", "tỷ muội" (từ Hán-Việt)
+
+---
+
+### LOẠI 5: TỰ XƯNG "TÔI" VỚI QUAN LẠI/CẤP TRÊN
+
+**Pattern tìm kiếm:** `\btôi\b` (trong thoại với quan lại)
+
+**Ví dụ lỗi:**
+- "Đại nhân, **tôi** muốn báo cáo"
+- "**Tôi** xin vâng lệnh"
+
+**Sửa thành:**
+- "Đại nhân, **tiểu nữ**/**thuộc hạ** muốn báo cáo"
+- "**Tiểu nữ**/**Thuộc hạ** xin vâng lệnh"
+
+**Ngoại lệ (KHÔNG sửa):**
+- Người kể chuyện: "**tôi** nghĩ", "**tôi** thấy" (hiếm khi dùng)
+
+---
+
+### LOẠI 6: XƯNG HÔ VỚI ĐỒNG NGHIỆP (~10 lỗi)
+
+**Lưu ý:** "Vu đại ca", "Thanh La tỷ" là **CHẤP NHẬN ĐƯỢC** - không cần sửa. Chỉ sửa tự xưng "em" → "muội".
+
+**Pattern tìm kiếm:** `\bem\b` (tự xưng với đồng nghiệp lớn hơn)
+
+**Ví dụ lỗi:**
+- "Vu đại ca, **em** cảm ơn anh"
+- "Thanh La tỷ, **em** làm xong rồi"
+
+**Sửa thành:**
+- "Vu đại ca, **muội** cảm tạ huynh"
+- "Thanh La tỷ, **muội** làm xong rồi"
+
+**Quy tắc cụ thể cho Hoa Trường Hy:**
+
+| Đối tượng | Gọi | Tự xưng | Ví dụ |
+|-----------|-----|---------|-------|
+| Giả công công | **Công công** | **Tiểu nữ** | "Giả công công, tiểu nữ..." |
+| Đỗ Nhược | **Đỗ quản sự** | **Muội** | "Đỗ quản sự, muội..." |
+| Vu Hồi | **Vu huynh** / **Vu đại ca** | **Muội** | "Vu đại ca, muội..." |
+| Lục Thanh La | **Lục tỷ** / **Thanh La tỷ** | **Muội** | "Thanh La tỷ, muội..." |
+| Đồng nghiệp nhỏ hơn | Tên/**Ngươi** | **Ta** | "Ngươi làm xong chưa?" |
+| Xung đột | **Ngươi** | **Ta** | "Ta không sợ ngươi!" |
+
+---
+
+## CHECKLIST KIỂM TRA TỪNG CHƯƠNG
+
+### Chương 001-010:
+- [ ] Kiểm tra lỗi "A cha/A nương" → "Phụ thân/Mẫu thân"
+- [ ] Kiểm tra lỗi tự xưng "con" với cha mẹ → "hài nhi"
+- [ ] Kiểm tra lỗi tự xưng "cháu" với ông bà/thúc bá → "hài nhi/điệt nữ"
+
+### Chương 011-020:
+- [ ] Kiểm tra lỗi tự xưng "con" với cha mẹ → "hài nhi"
+- [ ] Kiểm tra lỗi tự xưng "cháu" với trưởng bối → "hài nhi/điệt nữ"
+- [ ] Kiểm tra lỗi xưng hô trong Y Dược Ty (tiểu nữ/vãn bối)
+- [ ] Kiểm tra lỗi xưng hô với đồng nghiệp (muội/huynh/tỷ)
+
+### Chương 021-030:
+- [ ] Kiểm tra lỗi tự xưng "con/cháu" (nếu có)
+- [ ] Kiểm tra lỗi xưng hô với tộc lão
+- [ ] Kiểm tra lỗi xưng hô trong gia tộc
+
+### Chương 031-040:
+- [ ] Kiểm tra lỗi tự xưng "con/cháu" (nếu có)
+- [ ] Kiểm tra lỗi xưng hô anh-em (huynh-muội)
+- [ ] Kiểm tra lỗi xưng hô với quan lại
+
+### Chương 041-050:
+- [ ] Kiểm tra lỗi tự xưng "con/cháu" (nếu có)
+- [ ] Kiểm tra lỗi xưng hô trong gia tộc
+- [ ] Kiểm tra lỗi xưng hô ngoài xã hội
+
+---
+
+## QUY TRÌNH KIỂM TRA
+
+### BƯỚC 1: Đọc file HTML
+```
+1. Mở file: translated/xxx/XXXX.html
+2. Chỉ kiểm tra nội dung trong thẻ <p>...</p> (thoại nhân vật)
+3. Bỏ qua phần người kể chuyện (trừ khi có lỗi rõ ràng)
+```
+
+### BƯỚC 2: Tìm kiếm pattern
+```
+1. Tìm "A cha", "A nương" → Đánh dấu sửa
+2. Tìm "con" (trong thoại) → Xác định ngữ cảnh
+3. Tìm "cháu" (trong thoại) → Xác định ngữ cảnh
+4. Tìm "Anh/Em" (trong thoại gia đình) → Đánh dấu sửa
+```
+
+### BƯỚC 3: Xác định ngữ cảnh
+```
+1. Ai đang nói? (Hoa Trường Hy, Hoa Lục Lang, Diêu thị...)
+2. Nói với ai? (cha mẹ, ông bà, thúc bá, anh chị...)
+3. Mục đích? (tự xưng hay gọi đối phương)
+```
+
+### BƯỚC 4: Áp dụng quy tắc sửa
+```
+1. Tra bảng quy tắc xưng hô
+2. Thay thế từ sai bằng từ đúng
+3. Giữ nguyên ngữ pháp và ý nghĩa câu
+```
+
+### BƯỚC 5: Ghi chú lại lỗi
+```
+Định dạng: Chương XXX | Từ sai | Từ đúng | Lý do
+Ví dụ: Chương 003 | "A cha, con" | "Phụ thân, hài nhi" | Tự xưng với cha mẹ
+```
+
+---
+
+## VÍ DỤ CỤ THỂ
+
+### Ví dụ 1: Chương 003
+**Original:**
+```html
+<p>Hoa Trường Hy: "A cha, đây là thuốc gì vậy? Sao lại khó ngửi thế này?"</p>
+<p>Hoa Trường Hy: "Con biết rồi."</p>
+```
+
+**Corrected:**
+```html
+<p>Hoa Trường Hy: "Phụ thân, đây là thuốc gì vậy? Sao lại khó ngửi thế này?"</p>
+<p>Hoa Trường Hy: "Hài nhi biết rồi."</p>
+```
+
+### Ví dụ 2: Chương 006
+**Original:**
+```html
+<p>Hoa Trường Hy: "Tổ mẫu, con đã không sao rồi."</p>
+<p>Hoa Lục Lang: "Tổ phụ, con không thích đến tiệm thuốc."</p>
+```
+
+**Corrected:**
+```html
+<p>Hoa Trường Hy: "Tổ mẫu, hài nhi đã không sao rồi."</p>
+<p>Hoa Lục Lang: "Tổ phụ, hài nhi không thích đến tiệm thuốc."</p>
+```
+
+### Ví dụ 3: Chương 016
+**Original:**
+```html
+<p>Hoa Trường Hy: "Hứa thúc, cháu vào Y Dược Ty rồi."</p>
+```
+
+**Corrected:**
+```html
+<p>Hoa Trường Hy: "Hứa thúc, hài nhi vào Y Dược Ty rồi."</p>
+```
+
+---
+
+## LƯU Ý QUAN TRỌNG
+
+1. **Không sửa người kể chuyện**: Các từ "con gái", "con cháu", "cháu gái" trong phần miêu tả là ĐÚNG.
+
+2. **Phân biệt thoại và kể**: Chỉ sửa trong thẻ `<p>` có chứa thoại (có dấu ngoặc kép "..." hoặc dấu gạch ngang -).
+
+3. **Giữ nguyên tên riêng**: "Cửu nương", "Lục ca", "Ngũ tỷ" là ĐÚNG - không sửa.
+
+4. **Kiểm tra ngữ cảnh**: Cùng một từ "con" nhưng có thể là lỗi hoặc không tùy ngữ cảnh.
+
+5. **Ưu tiên "hài nhi"**: Khi tự xưng với trưởng bối, ưu tiên dùng "hài nhi" (thân mật) hơn "nhi nữ" (trang trọng).
+
+---
+
+## BẢNG TRA NHANH
+
+### **Gia đình:**
+| Từ sai | Ngữ cảnh | Từ đúng |
+|--------|----------|---------|
+| A cha | Gọi cha | **Phụ thân** |
+| A nương | Gọi mẹ | **Mẫu thân** |
+| con (tự xưng) | Với cha mẹ | **Hài nhi** |
+| con (tự xưng) | Với ông bà | **Hài nhi** |
+| con (tự xưng) | Với thúc bá | **Điệt nữ** |
+| cháu (tự xưng) | Với ông bà | **Hài nhi** / **Tôn nữ** |
+| cháu (tự xưng) | Với thúc bá | **Điệt nữ** |
+| Anh (gọi) | Anh trai trong nhà | **Huynh** / **Ca ca** |
+| Em (tự xưng) | Với anh chị | **Muội** / **Đệ** |
+
+### **Cơ quan (Y Dược Ty):**
+| Từ sai | Ngữ cảnh | Từ đúng |
+|--------|----------|---------|
+| tôi (tự xưng) | Với quan lại/cấp trên | **Tiểu nữ** / **Vãn bối** |
+| tôi (tự xưng) | Với quản sự trực tiếp | **Muội** (thân mật) |
+| em (tự xưng) | Với đồng nghiệp lớn hơn | **Tiểu muội** / **Muội** |
+| ta (tự xưng) | Xung đột/đối đầu | **Ta** (giữ nguyên) |
+
+**Lưu ý:** "Vu đại ca", "Thanh La tỷ" là **CHẤP NHẬN ĐƯỢC** - không cần sửa.
+
+---
+
+## TỔNG KẾT SỐ LƯỢNG LỖI DỰ KIẾN
+
+| Loại lỗi | Số lượng dự kiến | Mức độ ưu tiên |
+|----------|------------------|----------------|
+| "A cha/A nương" | ~30 | Cao |
+| "con" (tự xưng) | ~50 | Cao |
+| "cháu" (tự xưng) | ~15 | Trung bình |
+| "Anh/Em" (xưng hô) | ~10 | Trung bình |
+| "tôi" (tự xưng) | ~5 | Thấp |
+| "em" (với đồng nghiệp) | ~10 | Trung bình |
+| **TỔNG** | **~120** | |
+
+---
+
+## FILE LIÊN QUAN
+
+- `xungho.txt` - Quy tắc xưng hô cổ phong chi tiết
+- `quanhe.txt` - Danh sách quan hệ nhân vật
+- `kiemtra_xungho.txt` - File hướng dẫn kiểm tra xưng hô (file này)
+- `translated/051-100/*.html` - File cần kiểm tra

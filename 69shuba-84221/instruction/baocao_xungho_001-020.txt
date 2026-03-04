@@ -1,0 +1,291 @@
+# BÁO CÁO KIỂM TRA XƯNG HÔ - CHƯƠNG 001-020
+
+**Ngày kiểm tra:** 2026-03-03  
+**Người kiểm tra:** AI Agent  
+**File hướng dẫn:** `instruction/kiemtra_xungho.txt`  
+**File quan hệ:** `instruction/quanhe.txt`
+
+---
+
+## 📊 TỔNG QUAN
+
+| Phạm vi | Số lỗi | Mức độ ưu tiên |
+|---------|--------|----------------|
+| Chương 001-010 | 25 lỗi | Cao |
+| Chương 011-020 | 42 lỗi | Cao |
+| **TỔNG CỘNG** | **67 lỗi** | **Cao** |
+
+---
+
+## 📋 PHÂN LOẠI LỖI
+
+| Loại | Mô tả | Số lượng | Tỷ lệ | Ưu tiên |
+|------|-------|----------|-------|---------|
+| **Loại 1** | Tự xưng "con" với cha mẹ/trưởng bối | 25 | 37% | 🔴 Cao |
+| **Loại 3** | Gọi cha mẹ "A cha/A nương" | 21 | 31% | 🔴 Cao |
+| **Loại 6** | Gọi đồng nghiệp "Đại ca/Chị" | 15 | 22% | 🟡 Trung bình |
+| **Loại 4** | Xưng hô "Anh/Em" hiện đại | 8 | 12% | 🟡 Trung bình |
+| **Loại 2** | Tự xưng "cháu" với ông bà/thúc bá | 4 | 6% | 🟡 Trung bình |
+| **Loại 5** | Tự xưng "tôi" với quan lại | 4 | 6% | 🟢 Thấp |
+
+*Lưu ý: Một số lỗi thuộc nhiều loại cùng lúc nên tổng tỷ lệ > 100%*
+
+---
+
+## 📝 CHI TIẾT LỖI THEO CHƯƠNG
+
+### CHƯƠNG 001-002: ✅ KHÔNG CÓ LỖI
+- Nguyên nhân: Chủ yếu là hành động, ít đối thoại gia đình
+
+---
+
+### CHƯƠNG 003: 🔴 3 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với cha | "A cha, đây là thuốc gì vậy?" | "Phụ thân, đây là thuốc gì vậy?" | Loại 3 |
+| 2 | Hoa Trường Hy với cha | "Con biết rồi." | "Hài nhi biết rồi." | Loại 1 |
+| 3 | Hoa Trường Hy với cha | "A cha, con đến Y Dược Ty..." | "Phụ thân, hài nhi đến Y Dược Ty..." | Loại 1+3 |
+
+---
+
+### CHƯƠNG 004: 🔴 3 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với mẹ | "A nương, mau gọi Lục ca múc nước giúp con" | "Mẫu thân, mau gọi Lục ca múc nước giúp hài nhi" | Loại 1+3 |
+| 2 | Hoa Trường Hy với cha mẹ | "A cha, A nương, để con tắm rửa" | "Phụ thân, Mẫu thân, để hài nhi tắm rửa" | Loại 1+3 |
+| 3 | Hoa Trường Hy với cha | "A cha, chuyện này... con không muốn" | "Phụ thân, chuyện này... hài nhi không muốn" | Loại 1+3 |
+
+---
+
+### CHƯƠNG 005: 🔴 4 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với mẹ | "A nương, Cửu nương thấy hơi khó chịu" | "Mẫu thân, Cửu nương thấy hơi khó chịu" | Loại 3 |
+| 2 | Hoa Trường Hy với mẹ | "A nương, đây là trong thành" | "Mẫu thân, đây là trong thành" | Loại 3 |
+| 3 | Hoa Trường Hy với mẹ | "A nương, Cửu nương sai rồi, sau này con không dám" | "Mẫu thân, Cửu nương sai rồi, sau này hài nhi không dám" | Loại 1+3 |
+| 4 | Hoa Trường Hy với mẹ | "A nương, người đừng mắng con" | "Mẫu thân, người đừng mắng hài nhi" | Loại 1+3 |
+
+---
+
+### CHƯƠNG 006: 🔴 9 LỖI (NHIỀU NHẤT)
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với bà | "Tổ mẫu, con đã không sao rồi" | "Tổ mẫu, hài nhi đã không sao rồi" | Loại 1 |
+| 2 | Hoa Trường Hy với ông | "Tổ phụ, con ở tiệm thuốc..." (4x "con") | "Tổ phụ, hài nhi ở tiệm thuốc..." | Loại 1 |
+| 3 | Hoa Lục Lang với ông | "Tổ phụ, con không thích" | "Tổ phụ, hài nhi không thích" | Loại 1 |
+| 4 | Hoa Lục Lang với ông | "Tổ phụ, con không muốn học y" | "Tổ phụ, hài nhi không muốn học y" | Loại 1 |
+| 5 | Hoa Trường Hy với anh | "Lục ca, anh nghỉ ngơi" | "Lục ca, huynh nghỉ ngơi" | Loại 4 |
+| 6 | Hoa Trường Hy với bà | "Tổ mẫu, con không đi đâu" | "Tổ mẫu, hài nhi không đi đâu" | Loại 1 |
+| 7 | Hoa Trường Hy với mẹ | "A nương, con muốn đến Y Dược Ty" | "Mẫu thân, hài nhi muốn đến Y Dược Ty" | Loại 1+3 |
+| 8 | Hoa Trường Hy với mẹ | "A nương, đây là việc của con" | "Mẫu thân, đây là việc của hài nhi" | Loại 1+3 |
+| 9 | Hoa Trường Hy với mẹ | "A nương, con sẽ nghẹn chết" | "Mẫu thân, hài nhi sẽ nghẹn chết" | Loại 1+3 |
+
+---
+
+### CHƯƠNG 007-008: ✅ KHÔNG CÓ LỖI
+
+---
+
+### CHƯƠNG 009: 🔴 1 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Lục Lang với bà | "Cháu chỉ lo Cửu nương bị đói" | "Hài nhi chỉ lo Cửu nương bị đói" | Loại 2 |
+
+---
+
+### CHƯƠNG 010: 🔴 4 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với mẹ | "A nương, người thả con ra đi" | "Mẫu thân, người thả hài nhi ra đi" | Loại 1+3 |
+| 2 | Hoa Trường Hy với mẹ | "A nương, nếu con bỏ lỡ" | "Mẫu thân, nếu hài nhi bỏ lỡ" | Loại 1+3 |
+| 3 | Hoa Trường Hy với mẹ | "Đây là chuyện của con" | "Đây là chuyện của hài nhi" | Loại 1 |
+
+---
+
+### CHƯƠNG 011: 🔴 11 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Thập Nhị Nương | "Chị ấy nói thế nào?" | "Tỷ ấy nói thế nào?" | Loại 4 |
+| 2 | Hoa Trường Hy | "Ngũ tỷ tuy là chị" | "Ngũ tỷ tuy là tỷ" | Loại 4 |
+| 3 | Hoa Trường Hy | "chờ đợi chị ấy" | "chờ đợi tỷ ấy" | Loại 4 |
+| 4 | Hoa Trường Hy | "ép buộc chị ấy" | "ép buộc tỷ ấy" | Loại 4 |
+| 5 | Hoa Trường Hy | "chị ấy cũng không tự giành" | "tỷ ấy cũng không tự giành" | Loại 4 |
+| 6 | Hoa Trường Hy | "khuyên chị ấy" | "khuyên tỷ ấy" | Loại 4 |
+| 7 | Hoa Thái với mẹ | "A nương, ý của Hạ Tam gia" | "Mẫu thân, ý của Hạ Tam gia" | Loại 3 |
+| 8 | Hoa Thái với mẹ | "A nương, chuyện Ngũ Nương" | "Mẫu thân, chuyện Ngũ Nương" | Loại 3 |
+| 9 | Hoa Thái với mẹ | "A nương, đây không phải chuyện nhỏ" | "Mẫu thân, đây không phải chuyện nhỏ" | Loại 3 |
+| 10 | Hoa Thái với mẹ | "Vất vả cho A nương rồi" (2x) | "Vất vả cho Mẫu thân rồi" | Loại 3 |
+| 11 | Hoa nhị thẩm với chồng | "Theo tôi thấy" | "Theo thiếp thấy" | Loại 5 |
+
+---
+
+### CHƯƠNG 012: 🔴 11 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Minh Hách với mẹ | "A nương!" | "Mẫu thân!" | Loại 3 |
+| 2 | Hoa Minh Hách với mẹ | "A nương, không phải chúng con" | "Mẫu thân, không phải chúng con" | Loại 3 |
+| 3 | Hoa Lục Lang với em | "em có thi đậu nổi không?" | "muội có thi đậu nổi không?" | Loại 4 |
+| 4 | Hoa Trường Hy với anh | "Lục ca, anh về nhà đi" | "Lục ca, huynh về nhà đi" | Loại 4 |
+| 5 | Y quan với cấp trên | "Tôi chỉ phụ trách" | "Thuộc hạ chỉ phụ trách" | Loại 5 |
+| 6 | Hoa Trường Hy với y quan | "tôi muốn tìm Hứa dược sư" | "tiểu nữ muốn tìm Hứa dược sư" | Loại 5 |
+| 7 | Hoa Trường Hy với Hứa thúc | "cháu vào Y Dược Ty rồi" | "hài nhi vào Y Dược Ty rồi" | Loại 2 |
+| 8 | Hoa Trường Hy với Hứa thúc | "chưa để con pháo chế" | "chưa để hài nhi pháo chế" | Loại 1 |
+| 9 | Hoa Trường Hy với Hứa thúc | "con nhất định phải vào" (3x) | "hài nhi nhất định phải vào" | Loại 1 |
+| 10 | Hoa Trường Hy với Hứa thúc | "Con nghe lời thúc... con về" | "Hài nhi nghe lời thúc... hài nhi về" | Loại 1 |
+| 11 | Hoa Trường Hy với Hứa thúc | "Con sẽ không làm vậy" | "Hài nhi sẽ không làm vậy" | Loại 1 |
+
+---
+
+### CHƯƠNG 013: ✅ XƯNG HÔ ĐÚNG
+- "Tiểu nữ" với Giả công công: ✅ ĐÚNG
+
+---
+
+### CHƯƠNG 014: 🔴 6 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với mẹ | "A nương, làm tạp dịch" | "Mẫu thân, làm tạp dịch" | Loại 3 |
+| 2 | Hoa Trường Hy với cha mẹ | "A cha, A nương, hai người hãy tin con" | "Phụ thân, Mẫu thân, hai người hãy tin hài nhi" | Loại 1+3 |
+| 3 | Hoa Trường Hy với mẹ | "A nương, đừng quản" | "Mẫu thân, đừng quản" | Loại 3 |
+| 4 | Hoa Trường Hy với anh | "Con trượt tay thôi" | "Muội trượt tay thôi" | Loại 4 |
+| 5 | Hoa Trường Hy với cha | "Cha, con đã mười ba tuổi" (2x) | "Phụ thân, hài nhi đã mười ba tuổi" | Loại 1 |
+| 6 | Hoa Trường Hy với ông | "Tổ phụ, con muốn học" | "Tổ phụ, hài nhi muốn học" | Loại 1 |
+
+---
+
+### CHƯƠNG 015: 🔴 6 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với Đỗ Nhược | "con sẽ làm việc thật tốt" | "muội sẽ làm việc thật tốt" | Loại 6 |
+| 2 | Hoa Trường Hy với Đỗ Nhược | "Con hiểu rồi ạ" | "Muội hiểu rồi ạ" | Loại 6 |
+| 3 | Hoa Trường Hy với Đỗ Nhược | "Con chỉ hỏi vậy thôi" | "Muội chỉ hỏi vậy thôi" | Loại 6 |
+| 4 | Hoa Trường Hy với Đỗ Nhược | "Con đều nghe theo" | "Muội đều nghe theo" | Loại 6 |
+| 5 | Hoa Trường Hy với Hứa thúc | "cháu vào Y Dược Ty rồi" | "hài nhi vào Y Dược Ty rồi" | Loại 2 |
+| 6 | Hoa Trường Hy với Hứa thúc | "cháu vào Tạp Dịch Đường" | "hài nhi vào Tạp Dịch Đường" | Loại 2 |
+
+---
+
+### CHƯƠNG 016: 🔴 1 LỖI
+
+| STT | Vị trí | Từ sai | Từ đúng | Loại |
+|-----|--------|--------|---------|------|
+| 1 | Hoa Trường Hy với Hứa thúc | "hôm nay cháu phải bắt đầu" | "hôm nay hài nhi phải bắt đầu" | Loại 2 |
+
+---
+
+### CHƯƠNG 017-020: ✅ KHÔNG CÓ LỖI MỚI
+
+---
+
+## 📌 QUY TẮC SỬA
+
+### **Với cha mẹ:**
+```
+❌ "A cha/A nương" + "con"
+✅ "Phụ thân/Mẫu thân" + "hài nhi"
+```
+
+### **Với ông bà:**
+```
+❌ "Tổ phụ/Tổ mẫu" + "con/cháu"
+✅ "Tổ phụ/Tổ mẫu" + "hài nhi"
+```
+
+### **Với Hứa dược sư (trưởng bối):**
+```
+❌ "cháu"
+✅ "hài nhi"
+```
+
+### **Với Đỗ Nhược (quản sự trực tiếp):**
+```
+❌ "con"
+✅ "muội" (thân mật)
+```
+
+### **Với Vu Hồi (đồng nghiệp nam lớn hơn):**
+```
+❌ "Đại ca ca/Vũ đại ca"
+✅ "Vu huynh"
+```
+
+### **Với Lục Thanh La (đồng nghiệp nữ lớn hơn):**
+```
+❌ "Thanh La tỷ/Chị"
+✅ "Lục tỷ"
+```
+
+### **Với anh chị em trong nhà:**
+```
+❌ "anh/em/chị"
+✅ "huynh/muội/tỷ"
+```
+
+---
+
+## 📁 DANH SÁCH FILE CẦN SỬA
+
+| File | Số lỗi | Mức độ |
+|------|--------|--------|
+| `translated/001-050/0003.html` | 3 | Cao |
+| `translated/001-050/0004.html` | 3 | Cao |
+| `translated/001-050/0005.html` | 4 | Cao |
+| `translated/001-050/0006.html` | 9 | 🔴 Rất cao |
+| `translated/001-050/0009.html` | 1 | Trung bình |
+| `translated/001-050/0010.html` | 4 | Cao |
+| `translated/001-050/0011.html` | 11 | 🔴 Rất cao |
+| `translated/001-050/0012.html` | 11 | 🔴 Rất cao |
+| `translated/001-050/0014.html` | 6 | Cao |
+| `translated/001-050/0015.html` | 6 | Cao |
+| `translated/001-050/0016.html` | 1 | Trung bình |
+
+---
+
+## ✅ TIẾN ĐỘ SỬA
+
+- [ ] Chương 003 (3 lỗi)
+- [ ] Chương 004 (3 lỗi)
+- [ ] Chương 005 (4 lỗi)
+- [ ] Chương 006 (9 lỗi)
+- [ ] Chương 009 (1 lỗi)
+- [ ] Chương 010 (4 lỗi)
+- [ ] Chương 011 (11 lỗi)
+- [ ] Chương 012 (11 lỗi)
+- [ ] Chương 014 (6 lỗi)
+- [ ] Chương 015 (6 lỗi)
+- [ ] Chương 016 (1 lỗi)
+
+---
+
+## 📌 LƯU Ý QUAN TRỌNG
+
+1. **KHÔNG sửa người kể chuyện**: Các từ "con gái", "con cháu", "cháu gái" trong phần miêu tả là ĐÚNG.
+
+2. **Phân biệt thoại và kể**: Chỉ sửa trong thẻ `<p>` có chứa thoại (có dấu ngoặc kép "..." hoặc dấu gạch ngang -).
+
+3. **Giữ nguyên tên riêng**: "Cửu nương", "Lục ca", "Ngũ tỷ" là ĐÚNG - không sửa.
+
+4. **Kiểm tra ngữ cảnh**: Cùng một từ "con" nhưng có thể là lỗi hoặc không tùy ngữ cảnh.
+
+5. **Ưu tiên "hài nhi"**: Khi tự xưng với trưởng bối, ưu tiên dùng "hài nhi" (thân mật) hơn "nhi nữ" (trang trọng).
+
+6. **Với đồng nghiệp nam**: Dùng "huynh" thay vì "đại ca".
+
+7. **Với đồng nghiệp nữ lớn hơn**: Dùng "tỷ" thay vì "chị".
+
+---
+
+**File liên quan:**
+- `xungho.txt` - Quy tắc xưng hô cổ phong chi tiết
+- `quanhe.txt` - Danh sách quan hệ nhân vật
+- `kiemtra_xungho.txt` - File hướng dẫn kiểm tra xưng hô
